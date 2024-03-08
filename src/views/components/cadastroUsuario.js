@@ -46,7 +46,7 @@ class CadastroUsuario extends React.Component {
                                 <FormGroup label={'Repita a senha: *'} htmlFor={'inputRepitaSenha'}>
                                     <input type={'password'}
                                            className="form-control"
-                                           id="inputRepitaSenha"
+                                           // id="inputRepitaSenha"
                                            aria-describedby="repitaSenha"
                                            placeholder="Digite a senha novamente"
                                            onChange={event => this.setState({repitaSenha: event.target.value})}/>
