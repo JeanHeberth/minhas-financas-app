@@ -13,3 +13,4 @@ function Rotas(){
 </HashRouter>
     )
 }
+export default Rotas
