@@ -14,12 +14,13 @@ class CadastroUsuario extends React.Component {
         console.log(this.state)
 
     }
+
     render() {
         return (
             <div className={'container'}>
                 <Card title={'Cadastro de usuário'}>
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                             <div className="bs-component">
                                 <FormGroup label={'Nome: *'} htmlFor={'inputNome'}>
                                     <input type={'text'}
@@ -49,7 +50,7 @@ class CadastroUsuario extends React.Component {
                                            name={'repitaSenha'}
                                            onChange={event => this.setState({senhaRepeticao: event.target.value})}/>
                                 </FormGroup>
-
+                                <br/>
                                 <button onClick={this.cadastrar} className="btn btn-success">Salvar</button>
                                 <button type="button" className="btn btn-danger">Cancelar</button>
 
