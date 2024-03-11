@@ -8,9 +8,8 @@ function Rotas(){
 <HashRouter>
     <Switch>
         <Route path={'/login'} component={Login}/>
-        <Route path={'/cadastro-usuarios'} component={CadastroUsuario}/>
+        <Route path={'/cadastro-usuario'} component={CadastroUsuario}/>
     </Switch>
 </HashRouter>
     )
 }
-export default Rotas
